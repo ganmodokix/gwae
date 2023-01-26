@@ -1,0 +1,11 @@
+model_name: vae
+hyperparameters:
+  lr: 1e-4
+  z_dim: 64
+dataset: celeba
+logger_path: runs/celeba_vae
+batch_size: 64
+cuda_sync: false
+very_verbose: true
+until_convergence: true
+patience: 10

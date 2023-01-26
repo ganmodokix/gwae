@@ -1,0 +1,13 @@
+model_name: wae
+hyperparameters:
+  lr: 1e-4
+  z_dim: 64
+  alpha: 0.9
+  lambda: 100
+dataset: celeba
+logger_path: runs/celeba_wae
+batch_size: 64
+cuda_sync: false
+very_verbose: true
+until_convergence: true
+patience: 10

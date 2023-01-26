@@ -1,0 +1,1 @@
+vaetc @ git+https://github.com/ganmodokix/vaetc@develop_may#egg=vaetc
