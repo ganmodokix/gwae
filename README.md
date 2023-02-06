@@ -1,6 +1,6 @@
 # Code for Gromov-Wasserstein Autoencoders (GWAE)
 
-This code is for Gromov-Wasserstein Autoencoder (GWAE) models for reproducibility.
+This repository contains the code for ["Gromov-Wasserstein Autoencoders" (ICLR 2023)](https://openreview.net/forum?id=sbS10BCtc7).
 
 # Installation
 We developed and tested this code in the environment as follows:
@@ -9,6 +9,7 @@ We developed and tested this code in the environment as follows:
 - CUDA 11.3
 - 1x GeForce® RTX 2080 Ti
 - 31.2GiB (32GB) RAM
+We have also confirmed that this code successfully works on Python3.10.
 
 We encourage that the code is run under the `venv` envirionment of Python 3.9.
 The requirements can be easily installed using `pip`.
