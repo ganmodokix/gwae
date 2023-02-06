@@ -18,7 +18,7 @@ More details are presented in our paper [(pdf)](https://openreview.net/pdf?id=sb
 </table>
 
 ## BibTeX citation
-If you use this code in your work, please cite it as follows:
+If you use this code in your work, please cite our paper as follows:
 ```bibtex
 @inproceedings{Nakagawa2023,
     title={{Gromov-Wasserstein} Autoencoders},
