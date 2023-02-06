@@ -25,7 +25,6 @@ If you use this code in your work, please cite it as follows:
     author={Nao Nakagawa and Ren Togo and Takahiro Ogawa and Miki Haseyama},
     booktitle={Proceedings of International Conference on Learning Representations (ICLR)},
     year={2023},
-    pages={1-37},
     url={https://openreview.net/forum?id=sbS10BCtc7}
 }
 ```
