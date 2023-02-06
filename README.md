@@ -1,17 +1,23 @@
 # Code for Gromov-Wasserstein Autoencoders (GWAE)
 
-This repository contains the code for ["Gromov-Wasserstein Autoencoders" (ICLR 2023)](https://openreview.net/forum?id=sbS10BCtc7).
+This repository contains the official implementation for ["Gromov-Wasserstein Autoencoders" (ICLR 2023)](https://openreview.net/forum?id=sbS10BCtc7).
+The 
+
+## Paper Abstract
+ Variational Autoencoder (VAE)-based generative models offer flexible representation learning by incorporating meta-priors, general premises considered beneficial for downstream tasks. However, the incorporated meta-priors often involve ad-hoc model deviations from the original likelihood architecture, causing undesirable changes in their training. In this paper, we propose a novel representation learning method, Gromov-Wasserstein Autoencoders (GWAE), which directly matches the latent and data distributions using the variational autoencoding scheme. Instead of likelihood-based objectives, GWAE models minimize the Gromov-Wasserstein (GW) metric between the trainable prior and given data distributions. The GW metric measures the distance structure-oriented discrepancy between distributions even with different dimensionalities, which provides a direct measure between the latent and data spaces. By restricting the prior family, we can introduce meta-priors into the latent space without changing their objective. The empirical comparisons with VAE-based models show that GWAE models work in two prominent meta-priors, disentanglement and clustering, with their GW objective unchanged.
 
 # Installation
 We developed and tested this code in the environment as follows:
+
 - Ubuntu 20.04
 - Python3.9
 - CUDA 11.3
 - 1x GeForce® RTX 2080 Ti
 - 31.2GiB (32GB) RAM
+
 We have also confirmed that this code successfully works on Python3.10.
 
-We encourage that the code is run under the `venv` envirionment of Python 3.9.
+We recommend to run this code under the `venv` envirionment of Python 3.9.
 The requirements can be easily installed using `pip`.
 ```
 $ python3.9 -m venv .env
@@ -33,7 +39,7 @@ Run `train.py` with a setting file to train models.
 ```
 The results are saved in the `logger_path` directory specified in the setting YAML file.
 
-# How to Evaluate GWAE
+# How to Evaluate GWAEs
 Run `vis.py` with the `logger_path` directory specified in the settings.
 ```
 (.env) $ python vis.py runs/celeba_gwae
