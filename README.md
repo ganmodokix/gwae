@@ -33,18 +33,16 @@ If you use this code in your work, please cite it as follows:
 # Installation
 We developed and tested this code in the environment as follows:
 
-- Ubuntu 20.04
-- Python3.9
-- CUDA 11.3
+- Ubuntu 22.04
+- Python3.10
+- CUDA 11.8
 - 1x GeForce® RTX 2080 Ti
 - 31.2GiB (32GB) RAM
 
-We have also confirmed that this code successfully works on Python3.10.
-
-We recommend to run this code under the `venv` envirionment of Python 3.9.
+We recommend to run this code under the `venv` envirionment of Python 3.10.
 The requirements can be easily installed using `pip`.
 ```
-$ python3.9 -m venv .env
+$ python3.10 -m venv .env
 $ source .env/bin/activate
 (.env) $ pip install -U pip
 (.env) $ pip install wheel
