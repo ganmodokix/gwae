@@ -29,7 +29,7 @@ If you use this code in your work, please cite our paper as follows:
 }
 ```
 
-# Installation
+## Installation
 We developed and tested this code in the environment as follows:
 
 - Ubuntu 22.04
@@ -49,7 +49,7 @@ $ source .env/bin/activate
 ```
 In `requirements.txt`, a third-party representation learning package is specified, which is downloaded from `github.com` and installed via `pip`.
 
-# How to Train
+## How to Train
 Run `train.py` with a setting file to train models.
 ```
 (.env) $ python train.py setting/gwae.yaml
@@ -60,13 +60,13 @@ Run `train.py` with a setting file to train models.
 ```
 The results are saved in the `logger_path` directory specified in the setting YAML file.
 
-# How to Evaluate GWAEs
+## How to Evaluate GWAEs
 Run `vis.py` with the `logger_path` directory specified in the settings.
 ```
 (.env) $ python vis.py runs/celeba_gwae
 ```
 
-# How to Evaluate Models with FID
+## How to Evaluate Models with FID
 To compute the generation FID, run `fid.py` with the `logger_path` directory path.
 ```
 (.env) $ python fid.py runs/celeba_gwae
